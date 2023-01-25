@@ -1,0 +1,37 @@
+.header {
+    position: relative;
+    background-color: var(--header-color);
+}
+
+.header-title {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+.header-help {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 100%;    
+    text-align: center;
+    color: rgb(2, 66, 131);
+    cursor: pointer;
+}
+
+.header-help:hover {
+    background-color: rgb(0, 102, 204);
+    color: white;
+}
+
+.header-help span {
+    position: absolute;
+
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+

@@ -1,0 +1,26 @@
+.container {
+    position: relative;
+    padding: 10px;
+    background-color: rgb(212, 212, 212);
+}
+
+.filled-bar {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: yellow;
+}
+
+.posts-text {
+    position: absolute;
+    right: 10px;
+}
+
+.posts-text span{
+    display: block;
+    height: 100%;
+    transform: translateY(-50%);
+    font-weight: bold;
+}

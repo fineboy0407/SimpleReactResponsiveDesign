@@ -1,0 +1,56 @@
+.content-container {
+    /* position: relative; */
+    background-color: white;
+    height: 100%;
+    overflow:auto;
+}
+
+.content-container .title-bar{
+    position: absolute;
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    color: var(--dark-color);
+    background-color: white;
+    z-index: 10;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: var(--dark-color);
+}
+
+th,td{
+    text-align: center;
+    padding: 5px;
+    color: var(--dark-color);
+}
+
+tr{
+    background-color: white;
+}
+
+th{
+    background-color: white;
+    border-bottom: 2px solid rgb(207, 207, 207)
+}
+
+.text-name {
+    font-weight: bolder;
+}
+
+.message {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: rgb(221, 221, 221);
+}
